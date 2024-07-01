@@ -84,6 +84,13 @@ h2{
 tr:not(:last-child) {
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
+tr{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+th{
+    color:black;
+}
 table {
     border-collapse: collapse;
     width: 100%;
