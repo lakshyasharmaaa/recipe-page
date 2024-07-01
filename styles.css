@@ -1,0 +1,90 @@
+@font-face {
+    font-family: outfit;
+    src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: young-serif;
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@media (max-width: 375px) {
+    .container-recipe{
+        width:100%;
+        padding:10px;
+        margin:0;
+        
+        border-radius:0;
+    }
+}
+body{
+    background-color: hsl(30, 95%, 90%);
+    font-family: outfit;
+}
+.container-recipe{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:100%;
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 20px;
+    padding:20px;
+    box-sizing: border-box;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+hr{
+    width: 99%;
+    border: 1px solid  hsl(30, 18%, 87%);
+    background-color:  hsl(30, 18%, 87%);
+    
+}
+h1{
+    font-size:xx-large;
+    font-family:young-serif;
+    color:black;
+    margin:20px 0 -8px 0;
+    font-weight: 500;
+}
+p{
+    font-size: 16px;
+    font-family: outfit;
+}
+.list-one{
+    background-color: hsl(330, 100%, 98%);
+    padding:10px;
+    border-radius:15px;
+    list-style-type: circle;
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.list-one strong{
+    color: hsl(30, 10%, 34%);
+}
+.list-one h3{
+    color:hsl(332, 51%, 32%);
+    font-family: outfit;
+    margin: 0 0 -5px 0;
+}
+h2{
+    font-family: young-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 450;
+}
+li{
+    margin:10px;
+}
+h2{
+    margin: 10px 0 -5px 0;
+}
+tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
